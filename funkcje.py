@@ -20,3 +20,8 @@ def ile(content, x):
         if char == c:
             count += 1
     return count
+
+def razem(content):
+    content = content[0]
+    listRes = list(content.split(" "))
+    return listRes
