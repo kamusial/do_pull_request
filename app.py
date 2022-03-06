@@ -11,8 +11,10 @@ print(content_bez_pustych)
 # #funkcja licząca ilość wystapień litery "a"     "ile_a"
 print('Litera "a" wystepuje ', ile_a(content),' razy')
 #
-# #funkcja licząca ilość wystapień wskazanej litery     "ile"
-# print('Litera ' ,x, ' wystepuje ', ile(content, x),' razy'
+#funkcja licząca ilość wystapień wskazanej litery     "ile"
+x = input('podaj liczbe do policzenia: ')
+print('Litera ' ,x, ' wystepuje ', ile(content, x),' razy')
 #
-# #funkcja biorąca "content" i zapisująca wszystkie linie w jednej liście     "razem"
-# content_razem = razem(content)
+#funkcja biorąca "content" i zapisująca wszystkie linie w jednej liście     "razem"
+content_razem = razem(content)
+print(content_razem)
