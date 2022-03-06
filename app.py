@@ -1,7 +1,8 @@
 path = 'C://Users//kamusial//Desktop//rolling_stones.txt'
 from ile_a import *
 from usun_puste import *
-form ile import ile
+from ile import ile
+from razem import *
 
 with open (path, 'r') as file:
   content = file.readlines()
