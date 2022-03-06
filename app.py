@@ -1,3 +1,4 @@
+from ileA import *
 path = 'C://Users//kamusial//Desktop//rolling_stones.txt'
 with open (path, 'r') as file:
   content = file.readlines()
